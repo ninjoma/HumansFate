@@ -60,7 +60,7 @@ Para repararlos simplemente sal fuera de la nave y ten paciencia
 ![image](https://user-images.githubusercontent.com/62228706/135736519-6d9eb40f-92d1-40c6-9594-63e0463fe503.png)
 
 ### Paneles de Comunicación
-
+Apaga el fuego de los Paneles de Comunicación para repararlos
 
 
 
