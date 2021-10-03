@@ -57,10 +57,12 @@ Para defecar correctamente, hay que mantener el equilibrio (Mantener la barra al
 ### Paneles Solares
 Para repararlos simplemente sal fuera de la nave y ten paciencia
 
-![image](https://user-images.githubusercontent.com/62228706/135736519-6d9eb40f-92d1-40c6-9594-63e0463fe503.png)
+![image](https://user-images.githubusercontent.com/62228706/135744295-b85ba80f-6780-4bc1-9f6a-f0e99f628f31.png)
 
 ### Paneles de Comunicación
+Apaga el fuego de los Paneles de Comunicación para repararlos
 
+![image](https://user-images.githubusercontent.com/62228706/135744288-9beeb56f-4ada-44cd-a451-0e5376b10e06.png)
 
 
 
@@ -68,3 +70,8 @@ Para repararlos simplemente sal fuera de la nave y ten paciencia
 Según la zona en la que te encuentres, aparecerán unos carteles educativos con información interesante obtenida de la NASA
 
 ![image](https://user-images.githubusercontent.com/62228706/135736627-f8725b99-1543-4c7c-b6b6-61d293703b66.png)
+
+
+# DESCARGA
+https://drive.google.com/file/d/1uyJUgJswYTBl_ZdHOQV-zrq7bQTnw-6m/view?usp=sharing
+
