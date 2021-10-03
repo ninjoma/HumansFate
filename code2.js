@@ -107,6 +107,10 @@ gdjs.MainCode.GDBlinkingBCKGObjects1= [];
 gdjs.MainCode.GDBlinkingBCKGObjects2= [];
 gdjs.MainCode.GDBlinkingBCKGObjects3= [];
 gdjs.MainCode.GDBlinkingBCKGObjects4= [];
+gdjs.MainCode.GDInformativeTextObjects1= [];
+gdjs.MainCode.GDInformativeTextObjects2= [];
+gdjs.MainCode.GDInformativeTextObjects3= [];
+gdjs.MainCode.GDInformativeTextObjects4= [];
 
 gdjs.MainCode.conditionTrue_0 = {val:false};
 gdjs.MainCode.condition0IsTrue_0 = {val:false};
@@ -421,10 +425,14 @@ gdjs.MainCode.condition0IsTrue_0.val = false;
 gdjs.MainCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8166972);
 }
 }if (gdjs.MainCode.condition0IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("InformativeText"), gdjs.MainCode.GDInformativeTextObjects2);
 /* Reuse gdjs.MainCode.GDRunningMachineObjects2 */
 gdjs.MainCode.GDContextTextObjects2.length = 0;
 
 {gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.MainCode.mapOfGDgdjs_46MainCode_46GDContextTextObjects2Objects, (( gdjs.MainCode.GDRunningMachineObjects2.length === 0 ) ? 0 :gdjs.MainCode.GDRunningMachineObjects2[0].getPointX("")) + (( gdjs.MainCode.GDRunningMachineObjects2.length === 0 ) ? 0 :gdjs.MainCode.GDRunningMachineObjects2[0].getWidth()) / 2 - 22.5, (( gdjs.MainCode.GDRunningMachineObjects2.length === 0 ) ? 0 :gdjs.MainCode.GDRunningMachineObjects2[0].getPointY("")) - 70, "");
+}{for(var i = 0, len = gdjs.MainCode.GDInformativeTextObjects2.length ;i < len;++i) {
+    gdjs.MainCode.GDInformativeTextObjects2[i].setAnimation(5);
+}
 }}
 
 }
@@ -471,10 +479,14 @@ gdjs.MainCode.condition0IsTrue_0.val = false;
 gdjs.MainCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10273412);
 }
 }if (gdjs.MainCode.condition0IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("InformativeText"), gdjs.MainCode.GDInformativeTextObjects2);
 /* Reuse gdjs.MainCode.GDWeightMachineObjects2 */
 gdjs.MainCode.GDContextTextObjects2.length = 0;
 
 {gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.MainCode.mapOfGDgdjs_46MainCode_46GDContextTextObjects2Objects, (( gdjs.MainCode.GDWeightMachineObjects2.length === 0 ) ? 0 :gdjs.MainCode.GDWeightMachineObjects2[0].getPointX("")) + (( gdjs.MainCode.GDWeightMachineObjects2.length === 0 ) ? 0 :gdjs.MainCode.GDWeightMachineObjects2[0].getWidth()) / 2 - 22.5, (( gdjs.MainCode.GDWeightMachineObjects2.length === 0 ) ? 0 :gdjs.MainCode.GDWeightMachineObjects2[0].getPointY("")) - 70, "");
+}{for(var i = 0, len = gdjs.MainCode.GDInformativeTextObjects2.length ;i < len;++i) {
+    gdjs.MainCode.GDInformativeTextObjects2[i].setAnimation(1);
+}
 }}
 
 }
@@ -704,9 +716,13 @@ gdjs.MainCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8
 }
 }if (gdjs.MainCode.condition0IsTrue_0.val) {
 /* Reuse gdjs.MainCode.GDBathroomMachineObjects2 */
+gdjs.copyArray(runtimeScene.getObjects("InformativeText"), gdjs.MainCode.GDInformativeTextObjects2);
 gdjs.MainCode.GDContextTextObjects2.length = 0;
 
 {gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.MainCode.mapOfGDgdjs_46MainCode_46GDContextTextObjects2Objects, (( gdjs.MainCode.GDBathroomMachineObjects2.length === 0 ) ? 0 :gdjs.MainCode.GDBathroomMachineObjects2[0].getPointX("")) + (( gdjs.MainCode.GDBathroomMachineObjects2.length === 0 ) ? 0 :gdjs.MainCode.GDBathroomMachineObjects2[0].getWidth()) / 2 - 22.5, (( gdjs.MainCode.GDBathroomMachineObjects2.length === 0 ) ? 0 :gdjs.MainCode.GDBathroomMachineObjects2[0].getPointY("")) - 70, "");
+}{for(var i = 0, len = gdjs.MainCode.GDInformativeTextObjects2.length ;i < len;++i) {
+    gdjs.MainCode.GDInformativeTextObjects2[i].setAnimation(7);
+}
 }}
 
 }
@@ -751,9 +767,13 @@ gdjs.MainCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9
 }
 }if (gdjs.MainCode.condition0IsTrue_0.val) {
 /* Reuse gdjs.MainCode.GDFoodMachineObjects2 */
+gdjs.copyArray(runtimeScene.getObjects("InformativeText"), gdjs.MainCode.GDInformativeTextObjects2);
 gdjs.MainCode.GDContextTextObjects2.length = 0;
 
 {gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.MainCode.mapOfGDgdjs_46MainCode_46GDContextTextObjects2Objects, (( gdjs.MainCode.GDFoodMachineObjects2.length === 0 ) ? 0 :gdjs.MainCode.GDFoodMachineObjects2[0].getPointX("")) + (( gdjs.MainCode.GDFoodMachineObjects2.length === 0 ) ? 0 :gdjs.MainCode.GDFoodMachineObjects2[0].getWidth()) / 2 - 22.5, (( gdjs.MainCode.GDFoodMachineObjects2.length === 0 ) ? 0 :gdjs.MainCode.GDFoodMachineObjects2[0].getPointY("")) - 70, "");
+}{for(var i = 0, len = gdjs.MainCode.GDInformativeTextObjects2.length ;i < len;++i) {
+    gdjs.MainCode.GDInformativeTextObjects2[i].setAnimation(4);
+}
 }}
 
 }
@@ -790,10 +810,14 @@ gdjs.MainCode.condition0IsTrue_0.val = false;
 gdjs.MainCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8789692);
 }
 }if (gdjs.MainCode.condition0IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("InformativeText"), gdjs.MainCode.GDInformativeTextObjects2);
 /* Reuse gdjs.MainCode.GDPillMachineObjects2 */
 gdjs.MainCode.GDContextTextObjects2.length = 0;
 
 {gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.MainCode.mapOfGDgdjs_46MainCode_46GDContextTextObjects2Objects, (( gdjs.MainCode.GDPillMachineObjects2.length === 0 ) ? 0 :gdjs.MainCode.GDPillMachineObjects2[0].getPointX("")) + (( gdjs.MainCode.GDPillMachineObjects2.length === 0 ) ? 0 :gdjs.MainCode.GDPillMachineObjects2[0].getWidth()) / 2 - 22.5, (( gdjs.MainCode.GDPillMachineObjects2.length === 0 ) ? 0 :gdjs.MainCode.GDPillMachineObjects2[0].getPointY("")) - 70, "");
+}{for(var i = 0, len = gdjs.MainCode.GDInformativeTextObjects2.length ;i < len;++i) {
+    gdjs.MainCode.GDInformativeTextObjects2[i].setAnimation(3);
+}
 }}
 
 }
@@ -1068,10 +1092,14 @@ gdjs.MainCode.condition0IsTrue_0.val = false;
 gdjs.MainCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9853836);
 }
 }if (gdjs.MainCode.condition0IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("InformativeText"), gdjs.MainCode.GDInformativeTextObjects1);
 /* Reuse gdjs.MainCode.GDSolarPanelObjects1 */
 gdjs.MainCode.GDContextTextObjects1.length = 0;
 
 {gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.MainCode.mapOfGDgdjs_46MainCode_46GDContextTextObjects1Objects, (( gdjs.MainCode.GDSolarPanelObjects1.length === 0 ) ? 0 :gdjs.MainCode.GDSolarPanelObjects1[0].getPointX("")) + (( gdjs.MainCode.GDSolarPanelObjects1.length === 0 ) ? 0 :gdjs.MainCode.GDSolarPanelObjects1[0].getWidth()) / 2 - 22.5, (( gdjs.MainCode.GDSolarPanelObjects1.length === 0 ) ? 0 :gdjs.MainCode.GDSolarPanelObjects1[0].getPointY("")) - 20, "");
+}{for(var i = 0, len = gdjs.MainCode.GDInformativeTextObjects1.length ;i < len;++i) {
+    gdjs.MainCode.GDInformativeTextObjects1[i].setAnimation(6);
+}
 }}
 
 }
@@ -1166,7 +1194,11 @@ gdjs.MainCode.condition0IsTrue_0.val = false;
 {
 gdjs.MainCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.MainCode.mapOfGDgdjs_46MainCode_46GDPlayerObjects2Objects, gdjs.MainCode.mapOfGDgdjs_46MainCode_46GDOutsideMachineObjects2Objects, false, runtimeScene, false);
 }if (gdjs.MainCode.condition0IsTrue_0.val) {
-
+gdjs.copyArray(runtimeScene.getObjects("InformativeText"), gdjs.MainCode.GDInformativeTextObjects2);
+{for(var i = 0, len = gdjs.MainCode.GDInformativeTextObjects2.length ;i < len;++i) {
+    gdjs.MainCode.GDInformativeTextObjects2[i].setAnimation(2);
+}
+}
 { //Subevents
 gdjs.MainCode.eventsList8(runtimeScene);} //End of subevents
 }
@@ -2833,9 +2865,13 @@ gdjs.MainCode.condition1IsTrue_0.val = gdjs.evtTools.object.pickedObjectsCount(g
 }}
 if (gdjs.MainCode.condition1IsTrue_0.val) {
 /* Reuse gdjs.MainCode.GDContextTextObjects1 */
+gdjs.copyArray(runtimeScene.getObjects("InformativeText"), gdjs.MainCode.GDInformativeTextObjects1);
 {gdjs.evtTools.object.pickAllObjects((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.MainCode.mapOfGDgdjs_46MainCode_46GDContextTextObjects1Objects);
 }{for(var i = 0, len = gdjs.MainCode.GDContextTextObjects1.length ;i < len;++i) {
     gdjs.MainCode.GDContextTextObjects1[i].deleteFromScene(runtimeScene);
+}
+}{for(var i = 0, len = gdjs.MainCode.GDInformativeTextObjects1.length ;i < len;++i) {
+    gdjs.MainCode.GDInformativeTextObjects1[i].setAnimation(0);
 }
 }}
 
@@ -3086,6 +3122,10 @@ gdjs.MainCode.GDBlinkingBCKGObjects1.length = 0;
 gdjs.MainCode.GDBlinkingBCKGObjects2.length = 0;
 gdjs.MainCode.GDBlinkingBCKGObjects3.length = 0;
 gdjs.MainCode.GDBlinkingBCKGObjects4.length = 0;
+gdjs.MainCode.GDInformativeTextObjects1.length = 0;
+gdjs.MainCode.GDInformativeTextObjects2.length = 0;
+gdjs.MainCode.GDInformativeTextObjects3.length = 0;
+gdjs.MainCode.GDInformativeTextObjects4.length = 0;
 
 gdjs.MainCode.eventsList25(runtimeScene);
 return;
