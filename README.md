@@ -73,5 +73,5 @@ Según la zona en la que te encuentres, aparecerán unos carteles educativos con
 
 
 # DESCARGA
-https://drive.google.com/file/d/1uyJUgJswYTBl_ZdHOQV-zrq7bQTnw-6m/view?usp=sharing
+https://drive.google.com/file/d/1wtxt80XVOKO7vmIpPTKX0A0cHyuNCXTk/view?usp=sharing
 
