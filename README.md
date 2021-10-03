@@ -60,3 +60,11 @@ Para repararlos simplemente sal fuera de la nave y ten paciencia
 ![image](https://user-images.githubusercontent.com/62228706/135736519-6d9eb40f-92d1-40c6-9594-63e0463fe503.png)
 
 ### Paneles de Comunicación
+
+
+
+
+# DATOS INTERESANTES
+Según la zona en la que te encuentres, aparecerán unos carteles educativos con información interesante obtenida de la NASA
+
+![image](https://user-images.githubusercontent.com/62228706/135736627-f8725b99-1543-4c7c-b6b6-61d293703b66.png)
