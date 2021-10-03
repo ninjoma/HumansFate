@@ -172,11 +172,11 @@ gdjs.copyArray(runtimeScene.getObjects("CommModule"), gdjs.MainCode.GDCommModule
 gdjs.MainCode.condition0IsTrue_0.val = false;
 gdjs.MainCode.condition1IsTrue_0.val = false;
 {
-gdjs.MainCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4)) > 1;
+gdjs.MainCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4)) > 2;
 }if ( gdjs.MainCode.condition0IsTrue_0.val ) {
 {
 {gdjs.MainCode.conditionTrue_1 = gdjs.MainCode.condition1IsTrue_0;
-gdjs.MainCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8409060);
+gdjs.MainCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8482676);
 }
 }}
 if (gdjs.MainCode.condition1IsTrue_0.val) {
@@ -190,9 +190,16 @@ if (gdjs.MainCode.condition1IsTrue_0.val) {
 
 
 gdjs.MainCode.condition0IsTrue_0.val = false;
+gdjs.MainCode.condition1IsTrue_0.val = false;
 {
 gdjs.MainCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(3)) > 1;
-}if (gdjs.MainCode.condition0IsTrue_0.val) {
+}if ( gdjs.MainCode.condition0IsTrue_0.val ) {
+{
+{gdjs.MainCode.conditionTrue_1 = gdjs.MainCode.condition1IsTrue_0;
+gdjs.MainCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8041484);
+}
+}}
+if (gdjs.MainCode.condition1IsTrue_0.val) {
 {gdjs.evtTools.runtimeScene.unpauseTimer(runtimeScene, "growning");
 }}
 
