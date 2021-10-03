@@ -287,6 +287,8 @@ gdjs.MainCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableBoolean
 }{runtimeScene.getGame().getVariables().getFromIndex(3).setNumber(0);
 }{runtimeScene.getGame().getVariables().getFromIndex(0).setNumber(0);
 }{runtimeScene.getGame().getVariables().getFromIndex(5).setNumber(0);
+}{gdjs.evtTools.inventory.remove(runtimeScene, "inventory", "pill");
+}{gdjs.evtTools.inventory.remove(runtimeScene, "inventory", "food");
 }}
 
 }
@@ -307,6 +309,8 @@ gdjs.MainCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableNumber(
 }{runtimeScene.getGame().getVariables().getFromIndex(7).setNumber(0);
 }{runtimeScene.getGame().getVariables().getFromIndex(0).setNumber(0);
 }{runtimeScene.getGame().getVariables().getFromIndex(4).setNumber(0);
+}{gdjs.evtTools.inventory.remove(runtimeScene, "inventory", "pill");
+}{gdjs.evtTools.inventory.remove(runtimeScene, "inventory", "food");
 }}
 
 }
@@ -327,6 +331,8 @@ gdjs.MainCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableNumber(
 }{runtimeScene.getGame().getVariables().getFromIndex(7).setNumber(0);
 }{runtimeScene.getGame().getVariables().getFromIndex(0).setNumber(0);
 }{runtimeScene.getGame().getVariables().getFromIndex(4).setNumber(0);
+}{gdjs.evtTools.inventory.remove(runtimeScene, "inventory", "pill");
+}{gdjs.evtTools.inventory.remove(runtimeScene, "inventory", "food");
 }}
 
 }
@@ -347,6 +353,8 @@ gdjs.MainCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableNumber(
 }{runtimeScene.getGame().getVariables().getFromIndex(7).setNumber(0);
 }{runtimeScene.getGame().getVariables().getFromIndex(0).setNumber(0);
 }{runtimeScene.getGame().getVariables().getFromIndex(4).setNumber(0);
+}{gdjs.evtTools.inventory.remove(runtimeScene, "inventory", "pill");
+}{gdjs.evtTools.inventory.remove(runtimeScene, "inventory", "food");
 }}
 
 }
@@ -367,6 +375,8 @@ gdjs.MainCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableNumber(
 }{runtimeScene.getGame().getVariables().getFromIndex(7).setNumber(0);
 }{runtimeScene.getGame().getVariables().getFromIndex(0).setNumber(0);
 }{runtimeScene.getGame().getVariables().getFromIndex(4).setNumber(0);
+}{gdjs.evtTools.inventory.remove(runtimeScene, "inventory", "pill");
+}{gdjs.evtTools.inventory.remove(runtimeScene, "inventory", "food");
 }}
 
 }
@@ -387,6 +397,8 @@ gdjs.MainCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableNumber(
 }{runtimeScene.getGame().getVariables().getFromIndex(7).setNumber(0);
 }{runtimeScene.getGame().getVariables().getFromIndex(0).setNumber(0);
 }{runtimeScene.getGame().getVariables().getFromIndex(4).setNumber(0);
+}{gdjs.evtTools.inventory.remove(runtimeScene, "inventory", "pill");
+}{gdjs.evtTools.inventory.remove(runtimeScene, "inventory", "food");
 }}
 
 }
@@ -407,6 +419,8 @@ gdjs.MainCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableNumber(
 }{runtimeScene.getGame().getVariables().getFromIndex(7).setNumber(0);
 }{runtimeScene.getGame().getVariables().getFromIndex(0).setNumber(0);
 }{runtimeScene.getGame().getVariables().getFromIndex(4).setNumber(0);
+}{gdjs.evtTools.inventory.remove(runtimeScene, "inventory", "pill");
+}{gdjs.evtTools.inventory.remove(runtimeScene, "inventory", "food");
 }}
 
 }
@@ -427,6 +441,8 @@ gdjs.MainCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariableNumber(
 }{runtimeScene.getGame().getVariables().getFromIndex(7).setNumber(0);
 }{runtimeScene.getGame().getVariables().getFromIndex(0).setNumber(0);
 }{runtimeScene.getGame().getVariables().getFromIndex(4).setNumber(0);
+}{gdjs.evtTools.inventory.remove(runtimeScene, "inventory", "pill");
+}{gdjs.evtTools.inventory.remove(runtimeScene, "inventory", "food");
 }}
 
 }
@@ -2629,6 +2645,8 @@ if (gdjs.MainCode.condition1IsTrue_0.val) {
 }{runtimeScene.getGame().getVariables().getFromIndex(5).add(1);
 }{runtimeScene.getGame().getVariables().getFromIndex(7).add(1);
 }{runtimeScene.getGame().getVariables().getFromIndex(9).add(1);
+}{gdjs.evtTools.inventory.remove(runtimeScene, "inventory", "food");
+}{gdjs.evtTools.inventory.remove(runtimeScene, "inventory", "pill");
 }
 { //Subevents
 gdjs.MainCode.eventsList2(runtimeScene);} //End of subevents
