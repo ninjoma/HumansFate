@@ -2336,6 +2336,7 @@ gdjs.copyArray(runtimeScene.getObjects("StartBCKG"), gdjs.MainCode.GDStartBCKGOb
 }{for(var i = 0, len = gdjs.MainCode.GDBlinkingBCKGObjects1.length ;i < len;++i) {
     gdjs.MainCode.GDBlinkingBCKGObjects1[i].setOpacity(0);
 }
+}{gdjs.evtTools.sound.playMusic(runtimeScene, "63824__liliangorini__comunication.wav", false, gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(2)) / 100, 1);
 }
 { //Subevents
 gdjs.MainCode.eventsList0(runtimeScene);} //End of subevents
